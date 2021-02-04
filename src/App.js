@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="wrapper">
       <div>
-        <h1>Лабораторная №2. &quot;Список дел.&quot;</h1>
+        <h1>Список дел</h1>
+        <h2>Лабораторная №2. Добавляем элемент в список</h2>
       </div>
       <div>
         <input type="text" />

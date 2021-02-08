@@ -1,3 +1,47 @@
+body {
+    color: #708090;
+    font-family: "Consolas", serif;
+    font-size: 16pt;
+    text-shadow: 1px 1px 1px #a3a3a3;
+}
+
+button {
+    border-style: none;
+    background-color: #708090;
+
+    color: #ffffff;
+    font-size: 12pt;
+
+    outline-style: none;
+}
+
+.addBtn {
+    height: 30px;
+    width: 150px;
+
+    margin-top: 1%;
+}
+
+.deleteBtn {
+    height: 25px;
+    width: 25px;
+
+    margin-left: 1%;
+}
+
+input {
+    height: 30px;
+    width: 400px;
+
+    border-style: solid;
+
+    outline-style: none;
+}
+
+ul {
+    list-style: square;
+}
+
 .wrapper {
     width: 900px;
     margin: 0 auto;

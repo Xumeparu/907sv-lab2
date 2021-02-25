@@ -1,13 +1,17 @@
 body {
-    color: #708090;
+    color: #a9cb81;
     font-family: "Consolas", serif;
     font-size: 16pt;
-    text-shadow: 1px 1px 1px #a3a3a3;
+    text-shadow: 1px 1px 1px #ececec;
+}
+
+h1, h2 {
+    color: #63754b;
 }
 
 button {
     border-style: none;
-    background-color: #708090;
+    background-color: #63754b;
 
     color: #ffffff;
     font-size: 12pt;
@@ -22,6 +26,11 @@ button {
     margin-top: 1%;
 }
 
+.addBtn:hover, .addBtn:active,
+.deleteBtn:hover, .deleteBtn:active {
+    color: #d6d6d6;
+}
+
 .deleteBtn {
     height: 25px;
     width: 25px;
@@ -30,10 +39,16 @@ button {
 }
 
 input {
+    color: #a9cb81;
+    font-family: "Consolas", serif;
+    font-size: 16pt;
+    text-shadow: 1px 1px 1px #ececec;
+
     height: 30px;
     width: 400px;
 
     border-style: solid;
+    border-color: #a9cb81;
 
     outline-style: none;
 }

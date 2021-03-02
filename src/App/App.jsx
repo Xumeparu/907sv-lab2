@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Form from '../Form/Form';
-import List from '../List/List';
+import Form from '../components/Form/Form';
+import List from '../components/List/List';
 
 export default function App() {
   const [list, setList] = useState([]);
@@ -20,8 +20,7 @@ export default function App() {
   }
 
   function remove(id) {
-    list.splice(id, 1);
-    setList([...list]);
+    setList([...list.filter(item => item.id !== id)]);
   }
 
   return (

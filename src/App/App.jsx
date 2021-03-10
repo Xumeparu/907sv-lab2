@@ -11,12 +11,7 @@ export default function App() {
       id: Math.random().toString(36).substr(2),
       title: value
     };
-
-    if (value === '') {
-      alert('Пожалуйста, введите текст');
-    } else {
-      setList([...list, newValue]);
-    }
+    setList([...list, newValue]);
   }
 
   function remove(id) {
